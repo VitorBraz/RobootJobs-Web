@@ -6,7 +6,5 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=FFD700&size=35&center=true&vCenter=true&width=1000&lines=Seja+bem-vindo+ao+front+end+do+RobootJobs+🚀)
 </div>
 
-## Desenvolvimento
-
-
 [![My Skills](https://skillicons.dev/icons?i=react,js,css,html&perline=10)](https://skillicons.dev)
+-

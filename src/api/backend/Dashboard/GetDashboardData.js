@@ -1,6 +1,6 @@
-export async function fetchDataFromAPI() {
+export async function getDashboardData() {
   try {
-    const response = await fetch('http://dev01.briotecnologia.com.br:5000/api/n8n/instances', {
+    const response = await fetch('http://localhost:3000/dashboarddata', {
       credentials: 'include', // Inclui os cookies na requisição
     });
     const data = await response.json();

@@ -198,13 +198,22 @@ const Sidebar = () => {
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '30px' }}>
                         <div style={{ display: 'flex', alignItems: 'center' }}>
                             <PendingActionsIcon style={{ color: 'rgba(3, 155, 229, 0.6)', fontWeight: 200 }} />
-                            <Typography variant="h6" style={{ fontSize: '14px', color: 'rgba(3, 155, 229, 0.6', textTransform: 'uppercase', marginLeft: '5px', marginTop: '2px' }}>Minhas páginas</Typography>
+                            <Typography variant="h6" style={{ fontSize: '14px', color: 'rgba(3, 155, 229, 0.6', textTransform: 'uppercase', marginLeft: '5px', marginTop: '2px' }}>Páginas</Typography>
                         </div>
                     </div>
                     <div style={{ marginTop: '15px' }}>
                         <ul>
                             <li style={{ fontFamily: 'sans-serif', fontSize: '14px' }}>
                                 <a href="/dashboard">Dashboard</a>
+                            </li>
+                            <li style={{ fontFamily: 'sans-serif', fontSize: '14px' }}>
+                                <a href="/credenciais">Credenciais</a>
+                            </li>
+                            <li style={{ fontFamily: 'sans-serif', fontSize: '14px' }}>
+                                <a href="/vagas">vagas</a>
+                            </li>
+                            <li style={{ fontFamily: 'sans-serif', fontSize: '14px' }}>
+                                <a href="/templates">templates</a>
                             </li>
                         </ul>
                     </div>

@@ -1,16 +1,35 @@
-/* Estilos para a área central de conteúdo */
 .MainContent {
     padding: 50px;
-    margin: 20px;
+    margin: 10px;
     background-color: rgb(255, 255, 255);
-    border-radius: 10px; /* Valor ajustável para a curvatura das bordas */
-    min-height: 85%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra: deslocamento em x, deslocamento em y, desfoque, cor */
-}
-
-.PageName {
+    border-radius: 10px;
+    max-height: calc(100vh - 12vh); /* Adjusted to account for padding and margin */
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  
+    /* Customizing the scrollbar */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #FFA500 #ffffff; /* For Firefox */
+  
+    /* For WebKit browsers like Chrome and Safari */
+    &::-webkit-scrollbar {
+      width: 6px; /* Width of the scrollbar */
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color: #FFA500; /* Color of the scrollbar thumb */
+    }
+  
+    &::-webkit-scrollbar-track {
+      background-color: #ffffff; /* Color of the scrollbar track */
+    }
+  }
+  
+  .PageName {
     padding: 22px;
     color: white;
     font-weight: bold;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra: deslocamento em x, deslocamento em y, desfoque, cor */
-}
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

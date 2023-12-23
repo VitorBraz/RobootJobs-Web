@@ -1,6 +1,6 @@
 /* Estilos para o Sidebar */
 .sidebar {
-  width: 220px;
+  width: 180px;
   background-color: hsla(0, 0%, 100%, 0.8);
   height: 100vh;
   transition: width 0.3s ease;
@@ -54,7 +54,10 @@
   padding: 10px;
   transition: all 0.3s;
   border-radius: 0 10px 10px 0;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
 }
+
 
 .sidebar ul li a:hover {
   background-color: #77d2ff;
